@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Title - My Blog</title>
+    <style>
+        /* Add your custom styles here */
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+            animation: fade-in 1s ease-out;
+        }
+        
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            animation: slide-down 1s ease-out;
+        }
+        
+        @keyframes slide-down {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        nav ul li {
+            margin: 0 10px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px;
+        }
+        
+        main {
+            padding: 50px;
+            text-align: justify;
+            animation: fade-in 1s ease-out;
+        }
+        
+        h2 {
+            margin-bottom: 30px;
+            animation: slide-up 1s ease-out;
+        }
+        
+        @keyframes slide-up {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        p {
+            margin-bottom: 20px;
+            animation: fade-in 1s ease-out;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            animation: scale-fade 0.5s ease-out;
+        }
+        
+        @keyframes scale-fade {
+            from {
+                transform: scale(0.9);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        
+        footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+            animation: fade-in 1s ease-out;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="article.html">Articles</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Article Title</h2>
+        <p>Published on <em>Date</em> by <strong>Author</strong></p>
+        <img src="article-image.jpg" alt="Article Image">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at turpis ut lorem tincidunt bibendum in sit amet erat. In tincidunt ex ac ante vestibulum ultricies. Quisque ullam corper, enim eget consectetur volutpat, mauris mauris venenatis
+            justo, sed convallis lectus ex eget ligula.</p>
+        <p>Etiam sed fringilla odio, sit amet vulputate nisl. Proin vel elit non neque vestibulum cursus. Cras maximus eu mauris id ultrices. Sed facilisis scelerisque tortor ac interdum. Mauris vel dictum enim. Vivamus eu odio massa. Sed quis elit nunc.
+            Nulla tincidunt lectus sit amet neque laoreet rutrum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at turpis ut lorem tincidunt bibendum in sit amet erat. In tincidunt ex ac ante vestibulum ultricies. Quisque ullamcorper, enim eget consectetur volutpat, mauris mauris venenatis
+            justo, sed convallis lectus ex eget ligula.</p>
+        <p>Etiam sed fringilla odio, sit amet vulputate nisl. Proin vel elit non neque vestibulum cursus. Cras maximus eu mauris id ultrices. Sed facilisis scelerisque tortor ac interdum. Mauris vel dictum enim. Vivamus eu odio massa. Sed quis elit nunc.
+            Nulla tincidunt lectus sit amet neque laoreet rutrum.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
